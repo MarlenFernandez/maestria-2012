@@ -14,3 +14,25 @@ gen/
 
 # Local configuration file (sdk path, etc)
 local.properties
+
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+*~
+*.swp
+
+
+*.exe
+*.lib
+*.dll
+
+*.a
+*.o
+*.obj
+
+
