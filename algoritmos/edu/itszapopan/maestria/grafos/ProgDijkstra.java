@@ -8,7 +8,7 @@ public class ProgDijkstra {
     dg = new Digrafo(10);
 
     dg.setArista(0,"a");
-
+    //Esta linea de comentario la realizó Salvador Camacho
 
   }
 
