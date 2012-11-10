@@ -23,11 +23,11 @@ public class Digrafo {
   }
 
   public void setArista(int num, String nombre) {
-    aritas[num] = new Arista(nombre);
+    aristas[num] = new Arista(nombre);
   }
 
-  public Arista getArista() {
-    return aritas[num];
+  public Arista getArista(int num) {
+    return aristas[num];
   }
 
   public int getPosicion(String nombre) {
@@ -43,7 +43,7 @@ public class Digrafo {
 
   // Metodo sobrecargado
   public void setConexion(int desde, int hasta, int val) {
-    grafo[from][to] = val;
+    grafo[desde][hasta] = val;
   }
 
   public void setConexion(String desde, String hasta, int val) {
@@ -62,19 +62,19 @@ public class Digrafo {
   }
 
   public void setAristaDistancia(int num, int dist) {
-    aritas[num].setDistancia(dist);
+    aristas[num].setDistancia(dist);
   }
 
-  public Arista getAristaDistancia() {
-    return aritas[num].getDistancia();
+  public Arista getAristaDistancia(int num) {
+    return aristas[num].getDistancia();
   }
 
   public void setAristaPrevio(int num, String previo) {
-    aritas[num].setPrevio(previo);
+    aristas[num].setPrevio(previo);
   }
 
-  public Arista getAristaPrevio() {
-    return aritas[num].getPrevio();
+  public Arista getAristaPrevio(int num) {
+    return aristas[num].getPrevio();
   }
 }
 

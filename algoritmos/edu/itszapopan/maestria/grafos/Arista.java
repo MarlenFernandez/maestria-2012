@@ -28,7 +28,7 @@ public class Arista {
     return nombre;
   }
 
-  public void setNombre(Sring nombre){
+  public void setNombre(String nombre){
     this.nombre = nombre;
   }
 
