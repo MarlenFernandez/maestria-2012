@@ -65,7 +65,7 @@ public class Digrafo {
     aristas[num].setDistancia(dist);
   }
 
-  public Arista getAristaDistancia(int num) {
+  public int getAristaDistancia(int num) {
     return aristas[num].getDistancia();
   }
 
@@ -73,7 +73,7 @@ public class Digrafo {
     aristas[num].setPrevio(previo);
   }
 
-  public Arista getAristaPrevio(int num) {
+  public String getAristaPrevio(int num) {
     return aristas[num].getPrevio();
   }
 }
